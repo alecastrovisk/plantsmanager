@@ -17,7 +17,7 @@ import fonts from "../styles/fonts";
 import { useNavigation } from "@react-navigation/native";
 
 export function Welcome() {
-    const navigation = useNavigation();
+    const navigation = useNavigation<any>();
 
     function handleStart(){
       navigation.navigate('UserIdentification')
